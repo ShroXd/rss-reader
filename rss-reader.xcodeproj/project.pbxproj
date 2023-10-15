@@ -18,6 +18,7 @@
 		92CBB2482ADBD1270005FDEE /* rss_readerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBB2472ADBD1270005FDEE /* rss_readerUITestsLaunchTests.swift */; };
 		92CBB2562ADBDE780005FDEE /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBB2552ADBDE780005FDEE /* Channel.swift */; };
 		92CBB2582ADBDEED0005FDEE /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBB2572ADBDEED0005FDEE /* Feed.swift */; };
+		92CBB25E2ADBEB1C0005FDEE /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBB25D2ADBEB1C0005FDEE /* CoreDataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		92CBB2472ADBD1270005FDEE /* rss_readerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rss_readerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		92CBB2552ADBDE780005FDEE /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		92CBB2572ADBDEED0005FDEE /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		92CBB25D2ADBEB1C0005FDEE /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +104,10 @@
 		92CBB2242ADBD1260005FDEE /* rss-reader */ = {
 			isa = PBXGroup;
 			children = (
+				92CBB25A2ADBE6BB0005FDEE /* Helper */,
 				92CBB2592ADBDF980005FDEE /* Resources */,
 				92CBB2542ADBDE680005FDEE /* Models */,
+				92CBB25F2ADC0B670005FDEE /* Services */,
 				92CBB2252ADBD1260005FDEE /* rss_readerApp.swift */,
 				92CBB2272ADBD1260005FDEE /* ContentView.swift */,
 				92CBB22E2ADBD1270005FDEE /* Persistence.swift */,
@@ -153,6 +157,21 @@
 				92CBB2302ADBD1270005FDEE /* rss_reader.xcdatamodeld */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		92CBB25A2ADBE6BB0005FDEE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				92CBB25D2ADBEB1C0005FDEE /* CoreDataHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		92CBB25F2ADC0B670005FDEE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +306,7 @@
 			files = (
 				92CBB22F2ADBD1270005FDEE /* Persistence.swift in Sources */,
 				92CBB2582ADBDEED0005FDEE /* Feed.swift in Sources */,
+				92CBB25E2ADBEB1C0005FDEE /* CoreDataHelper.swift in Sources */,
 				92CBB2562ADBDE780005FDEE /* Channel.swift in Sources */,
 				92CBB2322ADBD1270005FDEE /* rss_reader.xcdatamodeld in Sources */,
 				92CBB2282ADBD1260005FDEE /* ContentView.swift in Sources */,
