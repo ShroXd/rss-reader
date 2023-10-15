@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92CBB2262ADBD1260005FDEE /* rss_readerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBB2252ADBD1260005FDEE /* rss_readerApp.swift */; };
+		92CBB2282ADBD1260005FDEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBB2272ADBD1260005FDEE /* ContentView.swift */; };
+		92CBB22A2ADBD1270005FDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CBB2292ADBD1270005FDEE /* Assets.xcassets */; };
+		92CBB22D2ADBD1270005FDEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CBB22C2ADBD1270005FDEE /* Preview Assets.xcassets */; };
+		92CBB22F2ADBD1270005FDEE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBB22E2ADBD1270005FDEE /* Persistence.swift */; };
+		92CBB2322ADBD1270005FDEE /* rss_reader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92CBB2302ADBD1270005FDEE /* rss_reader.xcdatamodeld */; };
+		92CBB23C2ADBD1270005FDEE /* rss_readerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBB23B2ADBD1270005FDEE /* rss_readerTests.swift */; };
+		92CBB2462ADBD1270005FDEE /* rss_readerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBB2452ADBD1270005FDEE /* rss_readerUITests.swift */; };
+		92CBB2482ADBD1270005FDEE /* rss_readerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBB2472ADBD1270005FDEE /* rss_readerUITestsLaunchTests.swift */; };
+		92CBB2562ADBDE780005FDEE /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBB2552ADBDE780005FDEE /* Channel.swift */; };
+		92CBB2582ADBDEED0005FDEE /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBB2572ADBDEED0005FDEE /* Feed.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92CBB2382ADBD1270005FDEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92CBB21A2ADBD1260005FDEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92CBB2212ADBD1260005FDEE;
+			remoteInfo = "rss-reader";
+		};
+		92CBB2422ADBD1270005FDEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92CBB21A2ADBD1260005FDEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92CBB2212ADBD1260005FDEE;
+			remoteInfo = "rss-reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92CBB2222ADBD1260005FDEE /* rss-reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rss-reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CBB2252ADBD1260005FDEE /* rss_readerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rss_readerApp.swift; sourceTree = "<group>"; };
+		92CBB2272ADBD1260005FDEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92CBB2292ADBD1270005FDEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92CBB22C2ADBD1270005FDEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92CBB22E2ADBD1270005FDEE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		92CBB2312ADBD1270005FDEE /* rss_reader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = rss_reader.xcdatamodel; sourceTree = "<group>"; };
+		92CBB2372ADBD1270005FDEE /* rss-readerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rss-readerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CBB23B2ADBD1270005FDEE /* rss_readerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rss_readerTests.swift; sourceTree = "<group>"; };
+		92CBB2412ADBD1270005FDEE /* rss-readerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rss-readerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CBB2452ADBD1270005FDEE /* rss_readerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rss_readerUITests.swift; sourceTree = "<group>"; };
+		92CBB2472ADBD1270005FDEE /* rss_readerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rss_readerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92CBB2552ADBDE780005FDEE /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		92CBB2572ADBDEED0005FDEE /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92CBB21F2ADBD1260005FDEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CBB2342ADBD1270005FDEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CBB23E2ADBD1270005FDEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92CBB2192ADBD1260005FDEE = {
+			isa = PBXGroup;
+			children = (
+				92CBB2242ADBD1260005FDEE /* rss-reader */,
+				92CBB23A2ADBD1270005FDEE /* rss-readerTests */,
+				92CBB2442ADBD1270005FDEE /* rss-readerUITests */,
+				92CBB2232ADBD1260005FDEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92CBB2232ADBD1260005FDEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92CBB2222ADBD1260005FDEE /* rss-reader.app */,
+				92CBB2372ADBD1270005FDEE /* rss-readerTests.xctest */,
+				92CBB2412ADBD1270005FDEE /* rss-readerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92CBB2242ADBD1260005FDEE /* rss-reader */ = {
+			isa = PBXGroup;
+			children = (
+				92CBB2592ADBDF980005FDEE /* Resources */,
+				92CBB2542ADBDE680005FDEE /* Models */,
+				92CBB2252ADBD1260005FDEE /* rss_readerApp.swift */,
+				92CBB2272ADBD1260005FDEE /* ContentView.swift */,
+				92CBB22E2ADBD1270005FDEE /* Persistence.swift */,
+				92CBB22B2ADBD1270005FDEE /* Preview Content */,
+			);
+			path = "rss-reader";
+			sourceTree = "<group>";
+		};
+		92CBB22B2ADBD1270005FDEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92CBB22C2ADBD1270005FDEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92CBB23A2ADBD1270005FDEE /* rss-readerTests */ = {
+			isa = PBXGroup;
+			children = (
+				92CBB23B2ADBD1270005FDEE /* rss_readerTests.swift */,
+			);
+			path = "rss-readerTests";
+			sourceTree = "<group>";
+		};
+		92CBB2442ADBD1270005FDEE /* rss-readerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92CBB2452ADBD1270005FDEE /* rss_readerUITests.swift */,
+				92CBB2472ADBD1270005FDEE /* rss_readerUITestsLaunchTests.swift */,
+			);
+			path = "rss-readerUITests";
+			sourceTree = "<group>";
+		};
+		92CBB2542ADBDE680005FDEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92CBB2552ADBDE780005FDEE /* Channel.swift */,
+				92CBB2572ADBDEED0005FDEE /* Feed.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92CBB2592ADBDF980005FDEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92CBB2292ADBD1270005FDEE /* Assets.xcassets */,
+				92CBB2302ADBD1270005FDEE /* rss_reader.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92CBB2212ADBD1260005FDEE /* rss-reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CBB24B2ADBD1270005FDEE /* Build configuration list for PBXNativeTarget "rss-reader" */;
+			buildPhases = (
+				92CBB21E2ADBD1260005FDEE /* Sources */,
+				92CBB21F2ADBD1260005FDEE /* Frameworks */,
+				92CBB2202ADBD1260005FDEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rss-reader";
+			productName = "rss-reader";
+			productReference = 92CBB2222ADBD1260005FDEE /* rss-reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92CBB2362ADBD1270005FDEE /* rss-readerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CBB24E2ADBD1270005FDEE /* Build configuration list for PBXNativeTarget "rss-readerTests" */;
+			buildPhases = (
+				92CBB2332ADBD1270005FDEE /* Sources */,
+				92CBB2342ADBD1270005FDEE /* Frameworks */,
+				92CBB2352ADBD1270005FDEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92CBB2392ADBD1270005FDEE /* PBXTargetDependency */,
+			);
+			name = "rss-readerTests";
+			productName = "rss-readerTests";
+			productReference = 92CBB2372ADBD1270005FDEE /* rss-readerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92CBB2402ADBD1270005FDEE /* rss-readerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CBB2512ADBD1270005FDEE /* Build configuration list for PBXNativeTarget "rss-readerUITests" */;
+			buildPhases = (
+				92CBB23D2ADBD1270005FDEE /* Sources */,
+				92CBB23E2ADBD1270005FDEE /* Frameworks */,
+				92CBB23F2ADBD1270005FDEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92CBB2432ADBD1270005FDEE /* PBXTargetDependency */,
+			);
+			name = "rss-readerUITests";
+			productName = "rss-readerUITests";
+			productReference = 92CBB2412ADBD1270005FDEE /* rss-readerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92CBB21A2ADBD1260005FDEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					92CBB2212ADBD1260005FDEE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					92CBB2362ADBD1270005FDEE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 92CBB2212ADBD1260005FDEE;
+					};
+					92CBB2402ADBD1270005FDEE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 92CBB2212ADBD1260005FDEE;
+					};
+				};
+			};
+			buildConfigurationList = 92CBB21D2ADBD1260005FDEE /* Build configuration list for PBXProject "rss-reader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92CBB2192ADBD1260005FDEE;
+			productRefGroup = 92CBB2232ADBD1260005FDEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92CBB2212ADBD1260005FDEE /* rss-reader */,
+				92CBB2362ADBD1270005FDEE /* rss-readerTests */,
+				92CBB2402ADBD1270005FDEE /* rss-readerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92CBB2202ADBD1260005FDEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CBB22D2ADBD1270005FDEE /* Preview Assets.xcassets in Resources */,
+				92CBB22A2ADBD1270005FDEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CBB2352ADBD1270005FDEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CBB23F2ADBD1270005FDEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92CBB21E2ADBD1260005FDEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CBB22F2ADBD1270005FDEE /* Persistence.swift in Sources */,
+				92CBB2582ADBDEED0005FDEE /* Feed.swift in Sources */,
+				92CBB2562ADBDE780005FDEE /* Channel.swift in Sources */,
+				92CBB2322ADBD1270005FDEE /* rss_reader.xcdatamodeld in Sources */,
+				92CBB2282ADBD1260005FDEE /* ContentView.swift in Sources */,
+				92CBB2262ADBD1260005FDEE /* rss_readerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CBB2332ADBD1270005FDEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CBB23C2ADBD1270005FDEE /* rss_readerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CBB23D2ADBD1270005FDEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CBB2482ADBD1270005FDEE /* rss_readerUITestsLaunchTests.swift in Sources */,
+				92CBB2462ADBD1270005FDEE /* rss_readerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92CBB2392ADBD1270005FDEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92CBB2212ADBD1260005FDEE /* rss-reader */;
+			targetProxy = 92CBB2382ADBD1270005FDEE /* PBXContainerItemProxy */;
+		};
+		92CBB2432ADBD1270005FDEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92CBB2212ADBD1260005FDEE /* rss-reader */;
+			targetProxy = 92CBB2422ADBD1270005FDEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92CBB2492ADBD1270005FDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92CBB24A2ADBD1270005FDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92CBB24C2ADBD1270005FDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rss-reader/Preview Content\"";
+				DEVELOPMENT_TEAM = DBRF523P7M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "atriiy.rss-reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92CBB24D2ADBD1270005FDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rss-reader/Preview Content\"";
+				DEVELOPMENT_TEAM = DBRF523P7M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "atriiy.rss-reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92CBB24F2ADBD1270005FDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBRF523P7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "atriiy.rss-readerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rss-reader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rss-reader";
+			};
+			name = Debug;
+		};
+		92CBB2502ADBD1270005FDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBRF523P7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "atriiy.rss-readerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rss-reader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rss-reader";
+			};
+			name = Release;
+		};
+		92CBB2522ADBD1270005FDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBRF523P7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "atriiy.rss-readerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "rss-reader";
+			};
+			name = Debug;
+		};
+		92CBB2532ADBD1270005FDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBRF523P7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "atriiy.rss-readerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "rss-reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92CBB21D2ADBD1260005FDEE /* Build configuration list for PBXProject "rss-reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CBB2492ADBD1270005FDEE /* Debug */,
+				92CBB24A2ADBD1270005FDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92CBB24B2ADBD1270005FDEE /* Build configuration list for PBXNativeTarget "rss-reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CBB24C2ADBD1270005FDEE /* Debug */,
+				92CBB24D2ADBD1270005FDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92CBB24E2ADBD1270005FDEE /* Build configuration list for PBXNativeTarget "rss-readerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CBB24F2ADBD1270005FDEE /* Debug */,
+				92CBB2502ADBD1270005FDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92CBB2512ADBD1270005FDEE /* Build configuration list for PBXNativeTarget "rss-readerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CBB2522ADBD1270005FDEE /* Debug */,
+				92CBB2532ADBD1270005FDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92CBB2302ADBD1270005FDEE /* rss_reader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92CBB2312ADBD1270005FDEE /* rss_reader.xcdatamodel */,
+			);
+			currentVersion = 92CBB2312ADBD1270005FDEE /* rss_reader.xcdatamodel */;
+			path = rss_reader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92CBB21A2ADBD1260005FDEE /* Project object */;
+}
